@@ -1,0 +1,171 @@
+* { /* CSS Reset */
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+    -webkit-font-smomothing: antialiased;
+    -moz-osx-font-smoothing: antialiased;
+}
+
+body {
+    width: 100%;
+    max-width: 100%;
+    font-family: 'Red Rose', cursive;
+}
+
+#home {
+    height: 100vh;
+    width: 100%;
+    background: 
+        linear-gradient(0deg, rgba(11, 11, 11, 0.15), rgba(11, 11, 11, 0.15)), linear-gradient(0deg, rgba(65, 48, 168, 0.1), rgba(61, 46, 146, 0.1)), 
+        url(./assets/microscope-4415777_1920.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% 110vh;
+}
+
+nav {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    background: linear-gradient(0deg, rgba(65, 48, 168, 0.1), rgba(65, 48, 168, 0.1)), rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav ul li:hover {
+    border-bottom: 3px solid;
+    border-color: white;
+}
+
+#cta {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 238px;
+    margin: 120px 0 0 170px;
+    padding: 60px 60px;
+    background: linear-gradient(0deg, rgba(65, 48, 168, 0.1), rgba(65, 48, 168, 0.1)), rgba(0, 0, 0, 0.5);
+    color: white;
+    border-radius: 8px;
+}
+
+#cta h1 {
+    vertical-align: text-top;
+    margin-bottom: 40px;
+    font-size: 46px;
+    font-weight: 400;
+}
+
+#cta p {
+    font-size: 21px;
+}
+
+#hashtag-ema {
+    color: #779BFA;
+}
+
+#cta button {
+    margin: 60px auto;
+    width: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #23368E;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.secao {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 100px;
+}
+
+.section-title {
+    width: max-content;
+    border-bottom: 4px solid #990000;
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+
+#mvv {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.mvv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.mvv div {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    background-color: #C4C4C4;
+    margin-bottom: 30px;
+}
+
+#card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+    margin: 0 auto;
+    height: 320px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+#card-container h4 {
+    color: #666666;
+    font-size: 18px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.card-content {
+    padding: 10px 14px;
+}
+
+.card-img {
+    height: 40%;
+    background-color: #C4C4C4;
+    border-radius: 8px 8px 0 0;
+}
